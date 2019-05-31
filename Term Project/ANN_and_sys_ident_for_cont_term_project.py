@@ -10,7 +10,7 @@ from tensorflow.contrib.keras import layers
 from tensorflow.python.keras import backend as K
 from tensorflow.python.ops import math_ops
 
-# Import the monthly milk production data, Index data = Month
+# Import the data
 aerobeam_data = pd.read_csv("log_final.csv")
 
 # Train Test Split
